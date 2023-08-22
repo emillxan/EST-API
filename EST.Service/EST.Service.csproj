@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Impementations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EST.DAL\EST.DAL.csproj" />
+    <ProjectReference Include="..\EST.Domain\EST.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
